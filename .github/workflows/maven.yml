@@ -34,5 +34,5 @@ jobs:
         app-name: spring-boot-1600181653700
         publish-profile: ${{ secrets.AZUREWEBAPPPUBLISHPROFILE }}
 #         # Applies to Web App only: Path to package or folder. *.zip, *.war, *.jar or a folder to deploy
-#         package: *.war
+        package: complete/target/*.jar
 
